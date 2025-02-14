@@ -1,0 +1,23 @@
+CREATE TABLE transactions (
+    item_id INT PRIMARY KEY,
+    status VARCHAR(50),
+    created_at TIMESTAMP,
+    sku VARCHAR(255),
+    price FLOAT,
+    qty_ordered INT,
+    grand_total FLOAT,
+    increment_id VARCHAR(50),
+    category_name_1 VARCHAR(255),
+    sales_commission_code VARCHAR(50),
+    discount_amount FLOAT,
+    payment_method VARCHAR(50),
+    working_date TIMESTAMP,
+    bi_status VARCHAR(50),
+    mv VARCHAR(50),
+    year INT,
+    month INT,
+    customer_since VARCHAR(10),
+    m_y VARCHAR(10),
+    fy VARCHAR(10),
+    customer_id INT
+);
