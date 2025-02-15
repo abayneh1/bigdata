@@ -3,7 +3,7 @@ import pandas as pd
 from transform import transform_data  # Ensure transform is imported
 
 # Database connection details
-DATABASE_URL = "postgresql://postgres:nata2809@localhost/sales_data"  # Modify with actual credentials
+DATABASE_URL = "postgresql://postgres:abay347@localhost/sales_data"  # Modify with actual credentials
 
 # Function to clean and preprocess the data
 def preprocess_data(df):
