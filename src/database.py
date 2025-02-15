@@ -1,7 +1,7 @@
 import psycopg2
 
 # Database connection details
-DATABASE_URL = "postgresql://postgres:abay467@localhost/sales_data"  # Modify with actual credentials
+DATABASE_URL = "postgresql://postgres:abay347@localhost/sales_data"  # Modify with actual credentials
 
 # Function to read SQL query from the .sql file
 def read_sql_file(filename):
